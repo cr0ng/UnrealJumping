@@ -2033,3 +2033,112 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.19-17.21.35:079][168]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.19-17.21.35:079][168]AssetCheck: /Game/Maps/JumpingMap 에셋 유효성 검사 중
 [2025.10.19-17.21.40:701][675]Cmd: SELECT NONE
+[2025.10.19-17.22.17:173][176]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.19-17.22.17:178][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-17.22.17:210][176]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpingMap
+[2025.10.19-17.22.17:211][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001806s)
+[2025.10.19-17.22.17:211][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpingMap.JumpingMap to /Game/Maps/UEDPIE_0_JumpingMap.JumpingMap (0.001845s)
+[2025.10.19-17.22.17:220][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.19-17.22.17:223][176]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpingMap
+[2025.10.19-17.22.17:224][176]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2025.10.19-17.22.17:225][176]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-17.22.17:225][176]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-17.22.17:225][176]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-17.22.17:225][176]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-17.22.17:225][176]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-17.22.17:225][176]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-17.22.17:227][176]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-17.22.17:250][176]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.10.19-17.22.17:250][176]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-17.22.17:250][176]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-17.22.17:250][176]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-17.22.17:251][176]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.19-17.22.17:251][176]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.19-17.22.17:254][176]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.19-17.22.17:254][176]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.19-17.22.17:254][176]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.19-17.22.17:254][176]LogAudio: Display: Audio Device (ID: 11) registered with world 'JumpingMap'.
+[2025.10.19-17.22.17:254][176]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.19-17.22.17:256][176]LogLoad: Game class is 'GM_Jumping_C'
+[2025.10.19-17.22.17:256][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpingMap.JumpingMap up for play (max tick rate 0) at 2025.10.20-02.22.17
+[2025.10.19-17.22.17:258][176]LogWorld: Bringing up level for play took: 0.001005
+[2025.10.19-17.22.17:260][176]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.10.19-17.22.17:262][176]PIE: 서버가 로그인했습니다.
+[2025.10.19-17.22.17:263][176]PIE: 에디터에서 플레이 총 시작 시간 0.085초입니다.
+[2025.10.19-17.22.40:980][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-17.22.40:980][992]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpingMap
+[2025.10.19-17.22.40:980][992]LogWorld: UWorld::CleanupWorld for JumpingMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-17.22.40:980][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-17.22.40:984][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-17.22.40:986][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-17.22.40:994][992]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.19-17.22.40:994][992]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.19-17.22.40:994][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.10.19-17.22.40:996][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.10.19-17.22.41:001][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-17.22.41:002][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.19-17.22.41:062][994]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.10.19-17.22.43:861][276]Cmd: SELECT NONE
+[2025.10.19-17.22.45:431][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.10.19-17.22.45:464][431]LogStall: Shutdown...
+[2025.10.19-17.22.45:464][431]LogStall: Shutdown complete.
+[2025.10.19-17.22.45:498][431]LogSlate: Window 'JumpingMap - 언리얼 에디터' being destroyed
+[2025.10.19-17.22.45:576][431]Cmd: QUIT_EDITOR
+[2025.10.19-17.22.45:577][432]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.19-17.22.45:580][432]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.19-17.22.45:581][432]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.19-17.22.45:581][432]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.19-17.22.45:581][432]LogWorld: UWorld::CleanupWorld for JumpingMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-17.22.45:581][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-17.22.45:590][432]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.19-17.22.45:591][432]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.19-17.22.45:592][432]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-17.22.45:592][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-17.22.45:593][432]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-17.22.45:593][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-17.22.45:593][432]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.19-17.22.45:596][432]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.10.19-17.22.45:596][432]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.10.19-17.22.45:596][432]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.10.19-17.22.46:577][432]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.19-17.22.46:577][432]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.19-17.22.46:577][432]LogAudio: Display: Audio Device unregistered from world 'JumpingMap'.
+[2025.10.19-17.22.46:577][432]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.19-17.22.46:577][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.10.19-17.22.46:581][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.10.19-17.22.46:590][432]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.19-17.22.46:590][432]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.19-17.22.46:591][432]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.10.19-17.22.46:593][432]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.19-17.22.46:594][432]LogExit: Preparing to exit.
+[2025.10.19-17.22.46:610][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.10.19-17.22.47:052][432]LogEditorDataStorage: Deinitializing
+[2025.10.19-17.22.47:193][432]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.19-17.22.47:206][432]LogExit: Editor shut down
+[2025.10.19-17.22.47:209][432]LogExit: Transaction tracking system shut down
+[2025.10.19-17.22.47:271][432]LogExit: Object subsystem successfully closed.
+[2025.10.19-17.22.47:334][432]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.19-17.22.47:757][432]LogMemoryProfiler: Shutdown
+[2025.10.19-17.22.47:757][432]LogNetworkingProfiler: Shutdown
+[2025.10.19-17.22.47:757][432]LoadingProfiler: Shutdown
+[2025.10.19-17.22.47:757][432]LogTimingProfiler: Shutdown
+[2025.10.19-17.22.48:047][432]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.19-17.22.48:047][432]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.10.19-17.22.48:047][432]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.19-17.22.48:047][432]RenderDocPlugin: plugin has been unloaded.
+[2025.10.19-17.22.48:062][432]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.19-17.22.48:062][432]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BACB7CF8C-4D6C-2F7A-1D72-BE8CB1B12556%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=d444327245b235c87c38bda2386aae03%7C215137a372de48f1b65a432757c79737%7C05b32d33-6a33-4e9b-a775-3486be0cbd9e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.19-17.22.49:115][432]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.19-17.22.49:121][432]LogXGEController: Cleaning working directory: C:/Users/유진/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.19-17.22.49:123][432]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.19-17.22.49:123][432]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.19-17.22.49:123][432]LogPakFile: Destroying PakPlatformFile
+[2025.10.19-17.22.49:223][432]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.19-17.22.49:252][432]LogExit: Exiting.
+[2025.10.19-17.22.49:266][432]Log file closed, 10/20/25 02:22:49
